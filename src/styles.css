@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  color: #222222;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 5px 5px 5px #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 400%;
+  padding: 40px;
+  margin: 20px;
+  margin-top: 50px;
+  text-align: center;
+  display: block;
+  background-image: url("atlanta.jpg");
+  background-color: #222222;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top; 
+  border-radius: 80px
+}
+
+.lorem, .description, .form{
+  background-color: #dddddd;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 80px
+}
+
+.description{
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-element{
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer {
+  position: absolute;
+  font-size: 75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #dddddd;
+  text-align: center;
+}
+
+input {
+    width: 3em;
+    padding: .5em;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #222222;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+button {
+    width: auto;
+    background-color: #222222;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding: .5em;
+    font-size: 100%;
+}
